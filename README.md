@@ -1,10 +1,10 @@
-# 🍫 Chocolate Sales Data Analysis
+# 🍫 Chocolate Sales Data Analysis (Using SQL and Power BI)
 
 ## 1. Introduction
-This project analyzes chocolate sales data stored in the `choco_data` table of the `choco_db` database. The dataset contains details about salespersons, products, geographies, revenues, costs, profits, and markups. The goal is to answer key business questions using SQL queries to support decision-making.
+This project analyzes chocolate sales data from the choco_data table in the choco_db database. Using SQL, key insights on salespersons, products, and geographies were derived. The results were further visualized in Power BI with interactive charts, page navigation, and tooltips for clear and actionable insights.
 
 ## 2. Dataset Description
-The table `choco_data` contains the following fields:
+The table contains the following fields:
 
 - **Sales_Person** – Name of the salesperson handling the sale.
 - **Geography** – Country/region where the sale took place.
@@ -17,7 +17,7 @@ The table `choco_data` contains the following fields:
 - **Revenue_per_unit** – Revenue generated per unit sold.
 - **Markup** – Price increase over cost.
 
-## 3. 📊 Key Analyses (descriptions only)
+## 3. 📊 Key Analyses (SQL)
 1. **Top Salesperson by Profit** — Identifies the highest earner across all salespeople.
 2. **Top 5 Best-Selling Products** — Ranks products by total units sold.
 3. **Top 3 Products by Profit per Unit** — Finds items with the highest profit margin per unit.
